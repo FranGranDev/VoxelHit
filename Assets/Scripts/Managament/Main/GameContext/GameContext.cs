@@ -326,16 +326,6 @@ namespace Managament
             }
         }
 
-        private void AutoBind<T>()
-        {
-            T service = GetComponentInChildren<T>();
-            if(service != null)
-            {
-                GetComponentsInChildren<IBindable<T>>()
-                    .ToList()
-                    .ForEach(x => x.Bind(service));
-            }
-        }
 
 #region SceneTransition
 

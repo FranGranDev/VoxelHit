@@ -29,13 +29,13 @@ namespace Managament
             };
         }
 
-        private void MoveToPoint(GameStates state)
+        private async void MoveToPoint(GameStates state)
         {
             if (this == null)
                 return;
 
-            movingEnviroment?.MoveToPoint(gameState, state, null);
-            
+            await movingEnviroment.MoveToPoint(gameState, state);
+
             gameState = state;
         }
     }

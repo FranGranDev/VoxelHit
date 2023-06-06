@@ -40,18 +40,18 @@ namespace UI
             active = true;
             finalResultSource = new UniTaskCompletionSource<IFinal.Result>();
 
-            earnedMoney.Fill(this, money, null);
+            earnedMoney.Fill(money);
             adsWheel.Activate(money, ClickWheelAds);
 
             return finalResultSource.Task;
         }
-        public async UniTask ExtraMoney(int money)
+        public async UniTask ExtraMoney(int money, float ratio)
         {
             soundPlayer.PlaySound("coins_get");
 
             int moneyPerIcon = earnData.GetMoneyPerIcon(coinType);
-            int count = Mathf.FloorToInt(money / moneyPerIcon);
-            int remain = money - count * moneyPerIcon;
+            int count = Mathf.FloorToInt(money / moneyPerIcon * ratio);
+            int remain = Mathf.Max(money - count * moneyPerIcon, 0);
 
 
             earnedMoney.StopScale();

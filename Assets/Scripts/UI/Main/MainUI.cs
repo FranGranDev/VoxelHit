@@ -321,7 +321,7 @@ namespace UI
                     int extraMoney = Mathf.RoundToInt(value * result.RewardRatio);
                     moneyController.Add(extraMoney);
 
-                    await finalUI.ExtraMoney(value);
+                    await finalUI.ExtraMoney(value, result.RewardRatio);
 
                     DoneClick();
                 }

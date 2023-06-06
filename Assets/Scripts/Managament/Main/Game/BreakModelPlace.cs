@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using Services;
 using System.Collections;
 using System.Collections.Generic;
@@ -28,24 +29,14 @@ namespace Managament
             soundPlayer = info.Components.SoundPlayer;
         }
 
-        
-        
 
-        public void Execute(System.Action onDone)
+        public async UniTask Execute()
         {
-            StartFinalEvent(onDone);
-        }
-        public void StartFinalEvent(System.Action onDone)
-        {
-            StartCoroutine(FinalEventCour(onDone));
-        }
-        private IEnumerator FinalEventCour(System.Action onDone)
-        {
-            yield return new WaitForSeconds(finalDelay);
+            await UniTask.Delay(finalDelay);
 
             soundPlayer.PlaySound("win");
 
-            yield return new WaitForSeconds(confettiPlayDelay);
+            await UniTask.Delay(confettiPlayDelay);
 
             BoomEffect();
             soundPlayer.PlaySound("confetti");
@@ -55,10 +46,7 @@ namespace Managament
             }
 
 
-            yield return new WaitForSeconds(uiDelay);
-
-            onDone?.Invoke();
-            yield break;
+            await UniTask.Delay(uiDelay);
         }
 
         private void BoomEffect()

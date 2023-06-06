@@ -6,6 +6,7 @@ using Voxel.Waves;
 using DG.Tweening;
 using Animations;
 using System;
+using Cysharp.Threading.Tasks;
 
 namespace Managament
 {
@@ -32,27 +33,18 @@ namespace Managament
         }
 
 
-        public void Execute(Action onDone)
-        {
-            StartFinalEvent(onDone);
-        }
-        public void StartFinalEvent(Action onDone)
+        public async UniTask Execute()
         {
             waveMaker = GetComponentInChildren<WaveMaker>();
 
-            StartCoroutine(FinalEventCour(onDone));
-        }
-        private IEnumerator FinalEventCour(Action onDone)
-        {
             radialShine.Play();
-
             soundPlayer.PlaySound("win");
 
-            yield return new WaitForSeconds(waveMakeDelay);
+            await UniTask.Delay(waveMakeDelay);
 
             waveMaker.MakeWave(new WaveParams(WaveParams.Types.Double));
 
-            yield return new WaitForSeconds(confettiPlayDelay);
+            await UniTask.Delay(confettiPlayDelay);
 
             soundPlayer.PlaySound("confetti");
             foreach (ParticleSystem particleSystem in particles)
@@ -60,10 +52,8 @@ namespace Managament
                 particleSystem.Play();
             }
 
-            yield return new WaitForSeconds(uiShowDelay);
-
-            onDone?.Invoke();
-            yield break;
+            
+            await UniTask.Delay(uiShowDelay);
         }
     }
 }

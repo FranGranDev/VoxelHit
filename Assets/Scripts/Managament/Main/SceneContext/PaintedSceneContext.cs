@@ -8,7 +8,7 @@ using Animations;
 using Services;
 using Factory;
 using Voxel;
-
+using Cysharp.Threading.Tasks;
 
 namespace Managament
 {
@@ -44,19 +44,17 @@ namespace Managament
 
             GameState = GameStates.Game;
 
-            StartCoroutine(FinalCour());
+            Final();
         }
 
         
-        private IEnumerator FinalCour()
+        private async void Final()
         {
-            yield return new WaitForFixedUpdate();
+            await UniTask.Yield();
 
-            modelPlace.StartFinalEvent(() =>
-            {
-                paintedUI.EarnMoney(paintData.PaintReward);
-            });
-            yield break;
+            await modelPlace.Execute();
+
+            paintedUI.EarnMoney(paintData.PaintReward);
         }
 
         public override void Visit(ISceneVisitor visitor)

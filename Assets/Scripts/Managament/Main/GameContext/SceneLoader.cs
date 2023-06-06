@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,12 +55,11 @@ namespace Managament
 
             if (currantLoading == null)
             {
-                currantLoading = new Loading(scenesIndex[sceneType], sceneType, this);
+                currantLoading = new Loading(scenesIndex[sceneType], sceneType);
             }
             else if(currantLoading.SceneType != sceneType)
             {
-                currantLoading.StopLoading();
-                currantLoading = new Loading(scenesIndex[sceneType], sceneType, this);
+                currantLoading = new Loading(scenesIndex[sceneType], sceneType);
             }
 
             preloadedScene = scenesIndex[sceneType];
@@ -68,7 +68,7 @@ namespace Managament
         {
             if (currantLoading == null)
             {
-                currantLoading = new Loading(scenesIndex[sceneType], sceneType, this);
+                currantLoading = new Loading(scenesIndex[sceneType], sceneType);
                 currantLoading.GoScene();
             }
             else if (currantLoading.SceneType == sceneType)
@@ -77,7 +77,6 @@ namespace Managament
             }
             else
             {
-                currantLoading.StopLoading();
                 SceneManager.LoadScene(scenesIndex[sceneType]);
             }
 
@@ -90,8 +89,7 @@ namespace Managament
         private class Loading
         {
             private AsyncOperation operation;
-            private Coroutine loadCoroutine;
-            private MonoBehaviour monoBehaviour;
+            private UniTask loading;
             
             public int Index { get; }
             public SceneContext.SceneTypes SceneType { get; }
@@ -100,11 +98,10 @@ namespace Managament
                 set => operation.allowSceneActivation = true;
             }
 
-            public Loading(int index, SceneContext.SceneTypes sceneType, MonoBehaviour monoBehaviour)
+            public Loading(int index, SceneContext.SceneTypes sceneType)
             {
                 Index = index;
                 SceneType = sceneType;
-                this.monoBehaviour = monoBehaviour;
 
                 StartLoading();
             }
@@ -113,27 +110,11 @@ namespace Managament
             {
                 operation = SceneManager.LoadSceneAsync(Index);
                 operation.allowSceneActivation = false;
-
-                loadCoroutine = monoBehaviour.StartCoroutine(LoadingCour());
-            }
-            private IEnumerator LoadingCour()
-            {
-                while(operation.progress < 0.9f)
-                {
-                    yield return null;
-                }
-
-                yield return new WaitUntil(() => operation.allowSceneActivation);
-                yield break;
             }
 
             public void GoScene()
             {
                 operation.allowSceneActivation = true;
-            }
-            public void StopLoading()
-            {
-                monoBehaviour.StopCoroutine(loadCoroutine);
             }
         }
     }

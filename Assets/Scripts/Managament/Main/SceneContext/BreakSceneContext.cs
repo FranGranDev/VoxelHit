@@ -117,18 +117,17 @@ namespace Managament
                 GameState = GameStates.Idle;
             }
         }
-        protected override void OnLevelCompleate()
+        protected override async void OnLevelCompleate()
         {
             GameState = GameStates.Done;
 
             IFinalEvent finalEvent = LevelTransform.GetComponentInChildren<IFinalEvent>();
             if (finalEvent != null)
             {
-                finalEvent.Execute(() =>
-                {
-                    GameState = GameStates.Final;
-                    mainUI.EarnMoney(collectedMoney);
-                });
+                await finalEvent.Execute();
+
+                GameState = GameStates.Final;
+                mainUI.EarnMoney(collectedMoney);
                 return;
             }
 

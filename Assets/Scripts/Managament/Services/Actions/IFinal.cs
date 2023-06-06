@@ -8,7 +8,7 @@ namespace Services
     public interface IFinal
     {
         UniTask<Result> Execute(int money);
-        UniTask ExtraMoney(int money);
+        UniTask ExtraMoney(int money, float ratio);
         void StopWheel();
 
 

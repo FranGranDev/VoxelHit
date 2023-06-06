@@ -4,6 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 using UI;
 using TMPro;
+using Cysharp.Threading.Tasks;
 
 namespace UI.Items
 {
@@ -31,47 +32,44 @@ namespace UI.Items
         
 
 
-        public void Fill(MonoBehaviour monoBehaviour, float value, System.Action onDone)
+        public async void Fill(int value)
         {
             extraScale = 0;
             textMesh.text = "0";
-            monoBehaviour.StartCoroutine(FillCour(value, onDone));
-        }
 
-        private IEnumerator FillCour(float value, System.Action onDone)
-        {
             float time = 0;
-            var wait = new WaitForFixedUpdate();
+            await UniTask.Delay(delay);
 
-            yield return new WaitForSeconds(delay);
-
-            while(time < fillTime)
+            while (time < fillTime)
             {
                 float ratio = time / fillTime;
 
                 currantValue = Mathf.RoundToInt(Mathf.Lerp(0, value, ratio));
-                string earnedValue = currantValue.ToString();
-                textMesh.text = text.Replace(replaceItem, earnedValue);
+                textMesh.text = text.Replace(replaceItem, currantValue.ToString());
 
                 time += Time.fixedDeltaTime;
-                yield return wait;
+                await UniTask.WaitForFixedUpdate();
             }
 
-            onDone?.Invoke();
+            currantValue = value;
+            textMesh.text = text.Replace(replaceItem, currantValue.ToString());
 
-            yield return new WaitForSeconds(0.25f);
+            Scale();
+        }
+        private async void Scale()
+        {
+            await UniTask.Delay(0.25f);
 
-            time = 0;
+            float time = 0;
             while (gameObject.activeInHierarchy && !stopped)
             {
                 scaleTarget.localScale = Vector3.one * (1 + Mathf.Sin(time * period) * punchScale) * (extraScale + 1f);
                 time += Time.fixedDeltaTime;
 
-                yield return wait;
+                await UniTask.WaitForFixedUpdate();
             }
-
-            yield break;
         }
+
 
         public void StopScale()
         {

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Animations;
+using Cysharp.Threading.Tasks;
 using Services;
 using UnityEngine;
 
@@ -33,19 +34,19 @@ namespace Managament
             };
         }
 
-        public void MoveToPoint(GameStates from, GameStates to, System.Action onCompleate)
+        public async UniTask MoveToPoint(GameStates from, GameStates to)
         {
             if(pointDict[from] == pointDict[to])
             {
-                onCompleate?.Invoke();
                 return;
             }
-            StartCoroutine(MoveCour(pointDict[from], pointDict[to], onCompleate));
+
+            await MoveCour(pointDict[from], pointDict[to]);
         }
 
-        public IEnumerator MoveCour(Transform prev, Transform next, System.Action onCompleate)
+        public async UniTask MoveCour(Transform prev, Transform next)
         {
-            yield return new WaitForSeconds(animation.Delay);
+            await UniTask.Delay(animation.Delay);
 
             var wait = new WaitForFixedUpdate();
 
@@ -58,15 +59,13 @@ namespace Managament
                 movingPoint.localRotation = Quaternion.Lerp(prev.localRotation, next.localRotation, animation.AnimationCurves[1].Evaluate(ratio));
 
                 time += Time.fixedDeltaTime;
-                yield return wait;
+                await UniTask.WaitForFixedUpdate();
             }
 
             movingPoint.localPosition = next.localPosition;
             movingPoint.localRotation = next.localRotation;
 
-            onCompleate?.Invoke();
-
-            yield break;
+            return;
         }
     }
 }
