@@ -1,0 +1,17 @@
+{
+    "name": "Voxels.Utils",
+    "rootNamespace": "Voxel.Utils",
+    "references": [
+        "GUID:657bfdb00e04af34c8fc9576eb4120ce",
+        "GUID:776d03a35f1b52c4a9aed9f56d7b4229"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

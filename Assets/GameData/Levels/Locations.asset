@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31a056362d2b5849ae646cbdc95edd8, type: 3}
+  m_Name: Locations
+  m_EditorClassIdentifier: 
+  levelsCount: 70
+  locations:
+  - name: Love
+    levels:
+    - Name: Love_Flowers
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Love/Love_Flowers
+    - Name: Love_Envelope
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Love/Love_Envelope
+    - Name: Love_Cake
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Love/Love_Cake
+    - Name: Love_Gift
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Love/Love_Gift
+    - Name: Love_Heart
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Love/Love_Heart
+    music: {fileID: 8300000, guid: 1555836638cd34283a3780a19b58d4c6, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0, g: 0.87431717, b: 1, a: 1}
+      patternColor: {r: 0.199, g: 0.89529395, b: 1, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Brand
+    levels:
+    - Name: Brand_Sir
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Brand/Brand_Sir
+    - Name: Brand_Bear
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Brand/Brand_Bear
+    - Name: Brand_Friend
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Brand/Brand_Friend
+    - Name: Brand_Hug
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Brand/Brand_Hug
+    - Name: Brand_Girl
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Brand/Brand_Girl
+    music: {fileID: 8300000, guid: 26364aaf1f64b40c1a047b0bacfbd10e, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 1, g: 0.5019608, b: 0.9137255, a: 1}
+      patternColor: {r: 1, g: 0.52156866, b: 0.91764706, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: AnimalFace
+    levels:
+    - Name: AFace_Elephant
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/AnimalFace/AFace_Elephant
+    - Name: AFace_Monkey
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/AnimalFace/AFace_Monkey
+    - Name: AFace_Tiger
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/AnimalFace/AFace_Tiger
+    - Name: AFace_Zebra
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/AnimalFace/AFace_Zebra
+    - Name: AFace_Lion
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/AnimalFace/AFace_Lion
+    music: {fileID: 8300000, guid: 07f391589664f4e85904fa28802b4aa8, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0, g: 0.8745098, b: 1, a: 1}
+      patternColor: {r: 0.2, g: 0.89411765, b: 1, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Unicorn
+    levels:
+    - Name: Unicorn_Lion
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Unicorn/Unicorn_Lion
+    - Name: Unicorn_Frog
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Unicorn/Unicorn_Frog
+    - Name: Unicorn_Pony
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Unicorn/Unicorn_Pony
+    - Name: Unicorn_Cat
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Unicorn/Unicorn_Cat
+    - Name: Unicorn_Horse
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Unicorn/Unicorn_Horse
+    music: {fileID: 8300000, guid: 1555836638cd34283a3780a19b58d4c6, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0.5372549, g: 0.57254905, b: 1, a: 1}
+      patternColor: {r: 0.5019608, g: 0.53333336, b: 1, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Birthday
+    levels:
+    - Name: Birthday_Cap
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Birthday/Birthday_Cap
+    - Name: Birthday_Ballons
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Birthday/Birthday_Ballons
+    - Name: Birthday_Cake
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Birthday/Birthday_Cake
+    - Name: Birthday_Gift
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Birthday/Birthday_Gift
+    - Name: Birthday_Candles
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Birthday/Birthday_Candles
+    music: {fileID: 8300000, guid: 26364aaf1f64b40c1a047b0bacfbd10e, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 1, g: 0.53333336, b: 0.3915094, a: 1}
+      patternColor: {r: 1, g: 0.5882353, b: 0.4575472, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: PetsFace
+    levels:
+    - Name: PetsFace_Cat
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/PetsFace/PetsFace_Cat
+    - Name: PetsFace_Dog
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/PetsFace/PetsFace_Dog
+    - Name: PetsFace_Goat
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/PetsFace/PetsFace_Goat
+    - Name: PetsFace_Pig
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/PetsFace/PetsFace_Pig
+    - Name: PetsFace_Cow
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/PetsFace/PetsFace_Cow
+    music: {fileID: 8300000, guid: 07f391589664f4e85904fa28802b4aa8, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 1, g: 0.5019608, b: 0.9137255, a: 1}
+      patternColor: {r: 1, g: 0.521, b: 0.91669565, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Emoji
+    levels:
+    - Name: Emoji_Smile
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Emoji/Emoji_Smile
+    - Name: Emoji_BigEyes
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Emoji/Emoji_BigEyes
+    - Name: Emoji_Tongue
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Emoji/Emoji_Tongue
+    - Name: Emoji_Love
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Emoji/Emoji_Love
+    - Name: Emoji_Glasses
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Emoji/Emoji_Glasses
+    music: {fileID: 8300000, guid: 1555836638cd34283a3780a19b58d4c6, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0.537, g: 0.57254905, b: 1, a: 1}
+      patternColor: {r: 0.5, g: 0.5343137, b: 1, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Food
+    levels:
+    - Name: Food_Cake
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Food/Food_Cake
+    - Name: Food_Watermelon
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Food/Food_Watermelon
+    - Name: Food_IceCream
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Food/Food_IceCream
+    - Name: Food_Pizza
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Food/Food_Pizza
+    - Name: Food_Apple
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Food/Food_Apple
+    music: {fileID: 8300000, guid: 26364aaf1f64b40c1a047b0bacfbd10e, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0, g: 0.8745098, b: 1, a: 1}
+      patternColor: {r: 0.2, g: 0.89411765, b: 1, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Gamer
+    levels:
+    - Name: Gamer_Arcade
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Gamer/Gamer_Arcade
+    - Name: Gamer_Wheel
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Gamer/Gamer_Wheel
+    - Name: Gamer_Joystick
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Gamer/Gamer_Joystick
+    - Name: Gamer_Console
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Gamer/Gamer_Console
+    - Name: Gamer_PC
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Gamer/Gamer_PC
+    music: {fileID: 8300000, guid: 07f391589664f4e85904fa28802b4aa8, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 1, g: 0.53350556, b: 0.39215684, a: 1}
+      patternColor: {r: 1, g: 0.5889032, b: 0.45999998, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Fruit
+    levels:
+    - Name: Fruit_Pear
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Fruit/Fruit_Pear
+    - Name: Fruit_Pomegranate
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Fruit/Fruit_Pomegranate
+    - Name: Fruit_Pineapple
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Fruit/Fruit_Pineapple
+    - Name: Fruit_Grape
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Fruit/Fruit_Grape
+    - Name: Fruit_Banana
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Fruit/Fruit_Banana
+    music: {fileID: 8300000, guid: 1555836638cd34283a3780a19b58d4c6, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0, g: 0.986, b: 0.69411767, a: 1}
+      patternColor: {r: 0, g: 1, b: 0.7058824, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: World
+    levels:
+    - Name: World_Pyramids
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/World/World_Pyramids
+    - Name: World_Ben
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/World/World_Ben
+    - Name: World_Gate
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/World/World_Gate
+    - Name: World_Eiffel
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/World/World_Eiffel
+    - Name: World_Liberty
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/World/World_Liberty
+    music: {fileID: 8300000, guid: 26364aaf1f64b40c1a047b0bacfbd10e, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0, g: 0.8745098, b: 1, a: 1}
+      patternColor: {r: 0.20000002, g: 0.8941177, b: 1, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Pets
+    levels:
+    - Name: Pets_Goat Variant
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Pets/Pets_Goat Variant
+    - Name: Pets_Dog Variant
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Pets/Pets_Dog Variant
+    - Name: Pets_Cat Variant
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Pets/Pets_Cat Variant
+    - Name: Pets_Cow Variant
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Pets/Pets_Cow Variant
+    - Name: Pets_Pig Variant
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Pets/Pets_Pig Variant
+    music: {fileID: 8300000, guid: 07f391589664f4e85904fa28802b4aa8, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 1, g: 0.5019608, b: 0.9122707, a: 1}
+      patternColor: {r: 1, g: 0.52156866, b: 0.91764706, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Dress
+    levels:
+    - Name: Dress_Cap
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Dress/Dress_Cap
+    - Name: Dress_Dress
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Dress/Dress_Dress
+    - Name: Dress_Jeans
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Dress/Dress_Jeans
+    - Name: Dress_Shorts
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Dress/Dress_Shorts
+    - Name: Dress_T-Shirt
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Dress/Dress_T-Shirt
+    music: {fileID: 8300000, guid: 1555836638cd34283a3780a19b58d4c6, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0, g: 0.8745098, b: 1, a: 1}
+      patternColor: {r: 0.2, g: 0.89411765, b: 1, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1
+  - name: Animal
+    levels:
+    - Name: Animal_Elephant
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Animal/Animal_Elephant
+    - Name: Animal_Zebra
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Animal/Animal_Zebra
+    - Name: Animal_Monkey
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Animal/Animal_Monkey
+    - Name: Animal_Tiger
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Animal/Animal_Tiger
+    - Name: Animal_Lion
+      LevelPrefab: {fileID: 0}
+      PrefabPath: Levels/Animal/Animal_Lion
+    music: {fileID: 8300000, guid: 26364aaf1f64b40c1a047b0bacfbd10e, type: 3}
+    background:
+      patternSprite: {fileID: 21300000, guid: dacb4dcae93dd4c47baf659782f93c86, type: 3}
+      backgroundColor: {r: 0.5372549, g: 0.57254905, b: 1, a: 1}
+      patternColor: {r: 0.5019608, g: 0.53333336, b: 1, a: 1}
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    useInRandom: 1

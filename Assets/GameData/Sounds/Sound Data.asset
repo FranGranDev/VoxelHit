@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072360704fa7fe844bfca34b4aa30bf2, type: 3}
+  m_Name: Sound Data
+  m_EditorClassIdentifier: 
+  soundItems:
+  - name: Voxel Create
+    id: voxel_create
+    Clips:
+    - {fileID: 8300000, guid: 820094ef6d8a61847956661594aa068d, type: 3}
+    Volume: 0.9
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 5
+  - name: Voxel Hit
+    id: voxel_hit
+    Clips:
+    - {fileID: 8300000, guid: 6d91791b7d136e343814e3f33cca96f1, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Voxel Model Destroy
+    id: model_destroy
+    Clips:
+    - {fileID: 8300000, guid: 985fb77acbf75a94388c40192a11ee92, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Buy
+    id: buy
+    Clips:
+    - {fileID: 8300000, guid: af29dff3e95b7e046b9df61012752356, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Coin Get
+    id: coins_get
+    Clips:
+    - {fileID: 8300000, guid: 0f4d6498975f01949a4a4c2533b3f410, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: UI Click
+    id: click
+    Clips:
+    - {fileID: 8300000, guid: 728a0a898578b374db86450ab7188551, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Win
+    id: win
+    Clips:
+    - {fileID: 8300000, guid: 057aa7e2f43b06a43b7f3b1f3a0565cf, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Fail
+    id: fail
+    Clips:
+    - {fileID: 8300000, guid: 5bd098f25bc272b44a9d5fc000dcccc9, type: 3}
+    Volume: 0.8
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 1
+  - name: Wave
+    id: wave
+    Clips:
+    - {fileID: 8300000, guid: e15ce10c49ff54543bf73ed834d4c0a3, type: 3}
+    - {fileID: 8300000, guid: 16d7ddc76850ff940a03b9ce2a637deb, type: 3}
+    Volume: 0.5
+    Pitch: 0.75
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Paint Wave
+    id: paint_wave
+    Clips:
+    - {fileID: 8300000, guid: 8b63cf897aa66794fa6f852d3874bff8, type: 3}
+    Volume: 0.2
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Closed
+    id: closed
+    Clips:
+    - {fileID: 8300000, guid: 77508e12290ddb146b3ceeeef9e44402, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Model Opened
+    id: model_opened
+    Clips:
+    - {fileID: 8300000, guid: 7607460e625a0bf48b7f19926c37dd82, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Collection Done
+    id: collection_done
+    Clips:
+    - {fileID: 8300000, guid: 0f1d47e8be998174c84de5e21abaa844, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Item Opened
+    id: item_opened
+    Clips:
+    - {fileID: 8300000, guid: c6d328cb3badb5342b5ae898c1e171a6, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Trap Hide
+    id: trap_hide
+    Clips:
+    - {fileID: 8300000, guid: ded5e212588c70047abf5b84c75169fb, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 3
+  - name: Trap Show
+    id: trap_show
+    Clips:
+    - {fileID: 8300000, guid: 055ea2661eab01c4e98c0c21d12f6964, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 3
+  - name: Confetti
+    id: confetti
+    Clips:
+    - {fileID: 8300000, guid: 33a22c432f3461b4a8e63f68652a110c, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Restart
+    id: restart
+    Clips:
+    - {fileID: 8300000, guid: 31375c7a3451db44192386099b3e452c, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Denied
+    id: denied
+    Clips:
+    - {fileID: 8300000, guid: 77508e12290ddb146b3ceeeef9e44402, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Trap Break
+    id: trap_break
+    Clips:
+    - {fileID: 8300000, guid: 3cc07287d1dc81e48b12885aa1039550, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Super shot
+    id: super_shot
+    Clips:
+    - {fileID: 8300000, guid: 02cb16da86429904986e57e1234b6109, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Catapul Scope
+    id: catapul_scope
+    Clips:
+    - {fileID: 8300000, guid: ea24f34fe86d1f8459f0a8431ebbdc2f, type: 3}
+    Volume: 0.5
+    Pitch: 0.9
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Catapul Fire
+    id: catapul_fire
+    Clips:
+    - {fileID: 8300000, guid: 0b2d8143517860144a4a35c026f44288, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 0
+  - name: Voxel Break Hit
+    id: voxel_break_hit
+    Clips:
+    - {fileID: 8300000, guid: 142e8875142768e40883bf8b70fad74f, type: 3}
+    - {fileID: 8300000, guid: 95f35c617b9770845bb641395603eb2c, type: 3}
+    - {fileID: 8300000, guid: 7371d4a299eec6e4f974c14d64431202, type: 3}
+    - {fileID: 8300000, guid: ded869883e12b6348848584019091421, type: 3}
+    Volume: 1
+    Pitch: 1
+    SpatialBlend: 0
+    MaxDistance: 300
+    maxInstance: 10
+  musicItems: []

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca800520f1d02247b9e3eb0181d09d8, type: 3}
+  m_Name: Bullets Data
+  m_EditorClassIdentifier: 
+  items:
+  - name: First
+    prefab: {fileID: 8954098584226311757, guid: 2acf7ae100187664980aa59d223e5cb7, type: 3}
+    catapult: {fileID: 3450150911472913546, guid: 91211f81fb417e04f800ba342aad450e, type: 3}
+    index: 0
+    type: 0
+    icon: {fileID: 21300000, guid: 591a287be652b1b418a1f91c9eb5b0db, type: 3}
+  - name: Abstract
+    prefab: {fileID: 6012209883450513343, guid: 488d17cf6807913419c7eb1b91fe2064, type: 3}
+    catapult: {fileID: 3320858223203948144, guid: 92aa76810126906459f119be49bf8c34, type: 3}
+    index: 1
+    type: 0
+    icon: {fileID: 21300000, guid: 0bd9b5af7fcb20d43a48d2c0ee836508, type: 3}
+  - name: Burger
+    prefab: {fileID: 6956568721803313509, guid: 5c7c5520e5d61f0419aefc810206538f, type: 3}
+    catapult: {fileID: 8969103345086491183, guid: f60b2f5dccdf43e4b9e4bb7b220fce29, type: 3}
+    index: 2
+    type: 0
+    icon: {fileID: 21300000, guid: 3831529e3cbee7f438d9b072c9a33001, type: 3}
+  - name: Ball
+    prefab: {fileID: 7626842332174828030, guid: e36fb1d6a796f9f49a4bd0d4f3b450fa, type: 3}
+    catapult: {fileID: 8472100811317003814, guid: 183dc5cc65239bb4396e3b6cd4340774, type: 3}
+    index: 3
+    type: 0
+    icon: {fileID: 21300000, guid: 45e94717e8b081c4a8c9949ddc126bfc, type: 3}
+  - name: Hat
+    prefab: {fileID: 4301430395185869512, guid: 71e83540760c184409688b41028127e9, type: 3}
+    catapult: {fileID: 8336263806354549442, guid: fd894f214c20e7b4e88a859747cb0108, type: 3}
+    index: 4
+    type: 0
+    icon: {fileID: 21300000, guid: 2e7a15bb59b778f4289856d83f7b5a74, type: 3}
+  - name: Heart
+    prefab: {fileID: 7637830359122690568, guid: 68c318f9a7b83a74cac9e53b4e6b2cc4, type: 3}
+    catapult: {fileID: 5561429445476322773, guid: cc92ddb0563ee2c4295dd506cbb3ca6e, type: 3}
+    index: 5
+    type: 0
+    icon: {fileID: 21300000, guid: aac42ee6907c37c49bfe79431d7b3b1c, type: 3}
+  - name: Pumpkin
+    prefab: {fileID: 3325094447193725835, guid: 0f8597dbdceacbd40aeccf22f25e8226, type: 3}
+    catapult: {fileID: 7461710700130119169, guid: 6a369b5e76c959647ba96a8816582f7e, type: 3}
+    index: 6
+    type: 0
+    icon: {fileID: 21300000, guid: ef778c17846e21e4b95242aeeadf5f57, type: 3}
+  - name: Sushi
+    prefab: {fileID: 2508556169349526226, guid: 9eb1103474eafab42a70aa6393c1eec2, type: 3}
+    catapult: {fileID: 2967895539404426380, guid: 13f3832f787a4b04b9503361fef2db40, type: 3}
+    index: 7
+    type: 0
+    icon: {fileID: 21300000, guid: 44033ae6bd06fa84cbc9dc792a7342a1, type: 3}
+  - name: Poball
+    prefab: {fileID: 8680839338834628632, guid: d299018b1fdfc6148816149df49ac8fd, type: 3}
+    catapult: {fileID: 1300106263658374034, guid: 57de08ff34356ec41a2b866b6bb13429, type: 3}
+    index: 8
+    type: 0
+    icon: {fileID: 21300000, guid: 7cffea5e67055074e940ae1fb41ed164, type: 3}
+  - name: Pig
+    prefab: {fileID: 5358412425556291262, guid: b219a706b5db885459cc3ae9711821bb, type: 3}
+    catapult: {fileID: 6647413204943647340, guid: f153aa684537b914f9bb398305bab3a6, type: 3}
+    index: 9
+    type: 1
+    icon: {fileID: 21300000, guid: 71ca04e2525be1a44b04b0c7ba86a0f7, type: 3}
+  - name: Chicken
+    prefab: {fileID: 8028182318242994966, guid: 169e9da074b84b749a6680d65fbee9f4, type: 3}
+    catapult: {fileID: 2144225396251066969, guid: 89f05ebdf9254514f8d60d144f759445, type: 3}
+    index: 10
+    type: 1
+    icon: {fileID: 21300000, guid: 16374784022fa524381650581763e58b, type: 3}
+  - name: SuperStar
+    prefab: {fileID: 5871527069260459076, guid: c8ba92242c3c1df46ba9c16d7b488223, type: 3}
+    catapult: {fileID: 2851669123800718951, guid: 1355ef99b373ac144903ba44892b67d1, type: 3}
+    index: 11
+    type: 1
+    icon: {fileID: 21300000, guid: b64ea9fb6197a1649a0990df7f239938, type: 3}
+  - name: Sheep
+    prefab: {fileID: 4896358646819615631, guid: 89dc818f635eb2f43a8d0c556f231dd0, type: 3}
+    catapult: {fileID: 3112069680843148501, guid: 7655f25591174cf499159d7335a01dc7, type: 3}
+    index: 12
+    type: 1
+    icon: {fileID: 21300000, guid: ec206a7431f2b3744b368d521ac01f00, type: 3}
+  baseCosts:
+  - cost: 0
+    openByAds: 0
+    maxAds: 0
+    adsId: bullets_base_0
+  - cost: 3000
+    openByAds: 1
+    maxAds: 1
+    adsId: bullets_base_1
+  - cost: 5000
+    openByAds: 1
+    maxAds: 2
+    adsId: bullets_base_2
+  - cost: 5000
+    openByAds: 1
+    maxAds: 2
+    adsId: bullets_base_3
+  - cost: 6000
+    openByAds: 1
+    maxAds: 4
+    adsId: bullets_base_4
+  - cost: 6000
+    openByAds: 1
+    maxAds: 4
+    adsId: bullets_base_5
+  - cost: 8000
+    openByAds: 1
+    maxAds: 4
+    adsId: bullets_base_6
+  - cost: 10000
+    openByAds: 1
+    maxAds: 5
+    adsId: bullets_base_7
+  - cost: 12500
+    openByAds: 1
+    maxAds: 6
+    adsId: bullets_base_8
+  premiumCosts:
+  - cost: 5000
+    openByAds: 0
+    maxAds: 2
+    adsId: bullets_premium_0
+  - cost: 15000
+    openByAds: 0
+    maxAds: 3
+    adsId: bullets_premium_1
+  - cost: 20000
+    openByAds: 0
+    maxAds: 4
+    adsId: bullets_premium_2
+  - cost: 30000
+    openByAds: 0
+    maxAds: 5
+    adsId: bullets_premium_3

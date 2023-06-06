@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c751ff4f6270774290dec2c47013858, type: 3}
+  m_Name: Cannon Data
+  m_EditorClassIdentifier: 
+  items:
+  - name: Base
+    prefab: {fileID: 8971417390644582451, guid: f5f598c67659c3c45b4f5d663a16dda2, type: 3}
+    index: 0
+    type: 0
+    icon: {fileID: 21300000, guid: 9c83c14929660ca4299f708b4217b503, type: 3}
+  - name: Knight
+    prefab: {fileID: 7024715085431282810, guid: 90303c9f2842417418b7f12249252670, type: 3}
+    index: 1
+    type: 0
+    icon: {fileID: 21300000, guid: 7f29bde18abc6af40bab649e4c928b39, type: 3}
+  - name: Fish
+    prefab: {fileID: 1478515881940562001, guid: c78cb47930c035f4184f0b4a50fdc3e8, type: 3}
+    index: 2
+    type: 0
+    icon: {fileID: 21300000, guid: a22810b7d33ed904e8c86f54798d5557, type: 3}
+  - name: Flower
+    prefab: {fileID: 6989476290412709312, guid: fd8001e75c04000449e5b651bad52888, type: 3}
+    index: 3
+    type: 0
+    icon: {fileID: 21300000, guid: e027f07cc0686b1468499eab0feee27d, type: 3}
+  - name: Ghost
+    prefab: {fileID: 1186481030184432524, guid: 4245e5d5b9eaaf84089d8382c357a4f4, type: 3}
+    index: 4
+    type: 0
+    icon: {fileID: 21300000, guid: 28f36c321ac48664eb2bcc9669fb7f7d, type: 3}
+  - name: God
+    prefab: {fileID: 3500143672212289876, guid: 998742721b68183478253a806d6c691c, type: 3}
+    index: 5
+    type: 0
+    icon: {fileID: 21300000, guid: 9ed291d52da156c429a2943559adeab0, type: 3}
+  - name: Bike
+    prefab: {fileID: 4363077327332820780, guid: 908cfe363d47b8f4ea877d90b71fc0de, type: 3}
+    index: 6
+    type: 0
+    icon: {fileID: 21300000, guid: cffd3fc6916657a489b342a022ebe776, type: 3}
+  - name: Old Man
+    prefab: {fileID: 1882963994171269700, guid: 08b015ed8d3fca64190f51bd5040138f, type: 3}
+    index: 7
+    type: 0
+    icon: {fileID: 21300000, guid: 6a99f2cf7e8000e4fb7f862f247f0d32, type: 3}
+  - name: Show Man
+    prefab: {fileID: 7307194203248611996, guid: 4d46df6444f17a44f93727e255625da6, type: 3}
+    index: 8
+    type: 0
+    icon: {fileID: 21300000, guid: d84708934af2fcb49a326288d80b5b65, type: 3}
+  - name: Orc
+    prefab: {fileID: 3530348518533185943, guid: 4e35b4585000ac347863e7cfdcf7d05b, type: 3}
+    index: 9
+    type: 1
+    icon: {fileID: 21300000, guid: 786849abc365c524b906268b42b4c19c, type: 3}
+  - name: Tank
+    prefab: {fileID: 8261925972520308967, guid: 78c2d1fd742d25f45a0a623694878ca3, type: 3}
+    index: 10
+    type: 1
+    icon: {fileID: 21300000, guid: 4b987e980dfcf7249837cffb46a88309, type: 3}
+  - name: Console
+    prefab: {fileID: 662735097707806726, guid: 07f604a4523e96d45b98a1933cf3ed1f, type: 3}
+    index: 11
+    type: 1
+    icon: {fileID: 21300000, guid: 80976809d28ecfa4fae8154a32108790, type: 3}
+  - name: Robot
+    prefab: {fileID: 7958536090577067648, guid: dfceee8c93bee39429867f66f1c9661b, type: 3}
+    index: 12
+    type: 1
+    icon: {fileID: 21300000, guid: 0311da2b51896f340920946a188f8093, type: 3}
+  baseCosts:
+  - cost: 0
+    openByAds: 0
+    maxAds: 0
+    adsId: cannons_base_0
+  - cost: 3000
+    openByAds: 1
+    maxAds: 1
+    adsId: cannons_base_1
+  - cost: 5000
+    openByAds: 1
+    maxAds: 2
+    adsId: cannons_base_2
+  - cost: 5000
+    openByAds: 1
+    maxAds: 2
+    adsId: cannons_base_3
+  - cost: 6000
+    openByAds: 1
+    maxAds: 4
+    adsId: cannons_base_4
+  - cost: 6000
+    openByAds: 1
+    maxAds: 4
+    adsId: cannons_base_5
+  - cost: 8000
+    openByAds: 1
+    maxAds: 4
+    adsId: cannons_base_6
+  - cost: 10000
+    openByAds: 1
+    maxAds: 5
+    adsId: cannons_base_7
+  - cost: 12500
+    openByAds: 1
+    maxAds: 6
+    adsId: cannons_base_8
+  premiumCosts:
+  - cost: 15000
+    openByAds: 0
+    maxAds: 3
+    adsId: cannons_premium_0
+  - cost: 25000
+    openByAds: 0
+    maxAds: 4
+    adsId: cannons_premium_1
+  - cost: 35000
+    openByAds: 0
+    maxAds: 5
+    adsId: cannons_premium_2
+  - cost: 45000
+    openByAds: 0
+    maxAds: 6
+    adsId: cannons_premium_3

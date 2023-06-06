@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 12cf3250445e78b46b29fa47a795670d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - baseMaterial: {fileID: 2100000, guid: cea3df18ce00bd145ad5af771ac223da, type: 2}
+  - voxelObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

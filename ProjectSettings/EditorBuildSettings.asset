@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Franak_Loading.unity
+    guid: 6351d73c989130145800dde2a4188aef
+  - enabled: 1
+    path: Assets/Scenes/Franak_Work.unity
+    guid: 126010c9370cc7e4f83dcebbda482e2b
+  - enabled: 1
+    path: Assets/Scenes/Franak_Infinity.unity
+    guid: 46c18b92337039a46b0aced24d689ea5
+  - enabled: 1
+    path: Assets/Scenes/Franak_Shelf.unity
+    guid: a38d3cbf78bf43947898c8487609260d
+  - enabled: 1
+    path: Assets/Scenes/Franak_Shop.unity
+    guid: d9e93e9b840b7f1449302c7787ce295f
+  - enabled: 1
+    path: Assets/Scenes/Franak_Painting.unity
+    guid: 07aa18dec08097b4fba6f46e63c11c30
+  - enabled: 1
+    path: Assets/Scenes/Franak_Painted.unity
+    guid: 5722cd87398cc154a888f33d79a4ce29
+  - enabled: 1
+    path: Assets/Scenes/Franak_PuzzleShelf.unity
+    guid: 32a269d36a0f8fc48815cf9bae15594d
+  - enabled: 1
+    path: Assets/Scenes/Franak_PuzzleInstall.unity
+    guid: 63617898c7e67774fafbea043e027492
+  - enabled: 1
+    path: Assets/Scenes/Franak_PuzzleGame.unity
+    guid: 6551f32b3cec6cf4e81e27863398bfdd
+  - enabled: 1
+    path: Assets/Scenes/Franak_EventRoad.unity
+    guid: 3f57c76ed51e6ab439628cceff3e26b9
+  - enabled: 1
+    path: Assets/Scenes/Franak_Break.unity
+    guid: e512d24933279fe44aac5d8e93f36263
+  m_configObjects: {}

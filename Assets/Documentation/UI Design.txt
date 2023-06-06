@@ -1,0 +1,54 @@
+FONTS:
+Game:
+- LEVEL 1 - FredoraOne-Regular SDF
+- COINS - FredoraOne-Regular SDF
+
+Win:
+- LEVEL 1 CLEAR - FredoraOne-Regular SDF
+- COMPLETE 100% - FredoraOne-Regular SDF
+- EARNED 2500 - FredoraOne-Regular SDF
+- NO THANKS - FredoraOne-Regular SDF 2
+- Whell Multiplers - FredoraOne-Regular SDF 3
+- PLAY (on AD button) - FredoraOne-Regular SDF 3 
+
+Fail:
+- LEVEL 1 FAILED- FredoraOne-Regular SDF
+- COMPLETE 45% - FredoraOne-Regular SDF
+- EARNED 250 - FredoraOne-Regular SDF
+- NO THANKS - FredoraOne-Regular SDF 2
+- CONTINUE (on AD button) - FredoraOne-Regular SDF 3 
+
+Coloring: 
+- PAINT THE MODEL - FredoraOne-Regular SDF
+- Progress Substrate (Progress Bar Small Gray) (FFFFFF)
+- Progress Fill (Progress Bar Small Green) (FFFFFF)
+
+UI ELEMENT COLORING
+
+Game:
+- Progress Substrate (Progress Bar Small Gray) (FFFFFF)
+- Progress Fill (Progress Bar Small Green) (FFFFFF)
+- Coin - (Mega Hyper Casual GUI Pack/Icon/Coin)
+- Progress Vertical Lines (FFFFFF) (Vertical_Line_1)
+
+Win:
+- Substrate (подложка общая) - (000000 A183) (Substrate_1)
+- Button PLAY - (36FF46) (Button_1)
+- Button PLAY Border (FFFFFF) (Button_1)
+- Coin - (Mega Hyper Casual GUI Pack/Icon/Coin)
+
+Fail:
+- Substrate (подложка общая) - (000000 A183) (Substrate_1)
+- Button CONTITUE - (36FF46) (Button_1)
+- Button PLAY Border (FFFFFF) (Button_1)
+- Coin - (Mega Hyper Casual GUI Pack/Icon/Coin)
+
+Colors:
+- Colors Button layer 1 - Substrate_Circle_1 (CCCCCC)
+- Colors Button layer 2 - Substrate_Circle_1 (FFFFFF)
+- Colors Button layer 3 - Circle_1 (colored)
+
+- Ok Button layer 1 - Substrate_Circle_1 (CCCCCC)
+- Ok Button layer 2 - Substrate_Circle_1 (FFFFFF)
+- Ok Button layer 3 - Circle_1 (36FF46)
+- Ok Button Layer 4 (Mega Hyper Casual GUI Pack/Icon/Tic Green) (FFFFFF)

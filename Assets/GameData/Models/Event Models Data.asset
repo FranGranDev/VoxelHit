@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8f233c94e720e4d9cd6316396ed9d6, type: 3}
+  m_Name: Event Models Data
+  m_EditorClassIdentifier: 
+  puzzles:
+  - name: FRIENDS
+    group: event_gen_0
+    puzzle: {fileID: 8469305418554326428, guid: c32c07b6d4354ae4c94bdbb39772ae43, type: 3}
+    items:
+    - name: VO_Gen_00
+      index: 0
+      model: {fileID: 8760718749701000620, guid: 43839e4ef69f06845b6c58d5ab427518, type: 3}
+      reward: 250
+    - name: VO_Gen_01
+      index: 1
+      model: {fileID: 8719712870929126401, guid: 71d2c53bd7b28af4980ccf45abb9091f, type: 3}
+      reward: 250
+    - name: VO_Gen_02
+      index: 2
+      model: {fileID: 856618692562237785, guid: c43091a809f7e7340843aaa6b395bb8c, type: 3}
+      reward: 250
+    - name: VO_Gen_03
+      index: 3
+      model: {fileID: 1399268352466004521, guid: 5feb512798345904f9f92571a2a66496, type: 3}
+      reward: 250
+    - name: VO_Gen_04
+      index: 4
+      model: {fileID: 8637444666293224970, guid: bb21869f83869624ea82485401e191b2, type: 3}
+      reward: 250
+    - name: VO_Gen_Whole
+      index: 5
+      model: {fileID: 5917335651318026748, guid: c32c07b6d4354ae4c94bdbb39772ae43, type: 3}
+      reward: 250
+    minLevelDone: 7
+    notflication:
+      enabled: 1
+      name: GIRLS
+      image: {fileID: 0}
+  - name: CATS
+    group: event_cats_0
+    puzzle: {fileID: 1848924613567596690, guid: 34f235b577babc345b98e54ac3063d2b, type: 3}
+    items:
+    - name: VO_Cat_Blue
+      index: 0
+      model: {fileID: 1912435962360341359, guid: 6c978c1e4d91c5d46b3022db69e37d5e, type: 3}
+      reward: 250
+    - name: VO_Cat_Purple
+      index: 1
+      model: {fileID: 381411607586322497, guid: 06038181f96c5214b8d84c4b576099f5, type: 3}
+      reward: 250
+    - name: VO_Cat_Green
+      index: 2
+      model: {fileID: 4304623040509344253, guid: 9f70b6707532aa24c9d40f4feaeec391, type: 3}
+      reward: 250
+    - name: VO_Cat_Yellow
+      index: 3
+      model: {fileID: 6037462311818116232, guid: deead9dafdb0aad4cacd2ae216d92106, type: 3}
+      reward: 250
+    - name: VO_Cat_Whole
+      index: 4
+      model: {fileID: 7857843112146913267, guid: ea1bf79ca9059f54cbd78293f3b3a920, type: 3}
+      reward: 250
+    minLevelDone: 15
+    notflication:
+      enabled: 1
+      name: CATS
+      image: {fileID: 0}
+  - name: HORROR
+    group: event_horror_0
+    puzzle: {fileID: 2689360989164194072, guid: c6343fa74615ef249b0ffee267dbf051, type: 3}
+    items:
+    - name: VO_Monsters_02
+      index: 0
+      model: {fileID: 5220108406338050235, guid: c8600d74384830f4290ee892b13e448a, type: 3}
+      reward: 250
+    - name: VO_Monsters_03
+      index: 1
+      model: {fileID: 1890010620575884428, guid: ebbc59c2de2edff44ba725069d680047, type: 3}
+      reward: 250
+    - name: VO_Monsters_01
+      index: 2
+      model: {fileID: 3143267345826344826, guid: c9aa9f04c95786549ad1bfe767b2b603, type: 3}
+      reward: 250
+    - name: VO_Monsters_04
+      index: 3
+      model: {fileID: 1572775310382340412, guid: 196c6a8eb8970cd438547cf53e090fe4, type: 3}
+      reward: 250
+    - name: VO_Monsters_05_Whole
+      index: 4
+      model: {fileID: 5910711167224031626, guid: c6343fa74615ef249b0ffee267dbf051, type: 3}
+      reward: 250
+    minLevelDone: 25
+    notflication:
+      enabled: 1
+      name: HORROR
+      image: {fileID: 0}
+  groups:
+  - event_gen_0
+  - event_cats_0
+  - event_horror_0

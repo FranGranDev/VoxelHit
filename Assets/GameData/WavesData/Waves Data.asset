@@ -1,0 +1,452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b6ae3b866e24f4a860683e8241e70a, type: 3}
+  m_Name: Waves Data
+  m_EditorClassIdentifier: 
+  singleWaveSettings:
+    SplashTime: 3
+    MaxDistance: 100
+    MaxDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.12976062
+        outSlope: 0.12976062
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.24055277
+      - serializedVersion: 3
+        time: 0.8816228
+        value: 0.57976186
+        inSlope: 1.7846794
+        outSlope: 1.9035798
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.10953186
+        outWeight: 0.7925299
+      - serializedVersion: 3
+        time: 1
+        value: 1.0032425
+        inSlope: 6.9241514
+        outSlope: 6.9241514
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.39304042
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Amplitude: 2
+    SplashThreshold: 3
+    ThresholdCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 4.828291
+        outSlope: 4.828291
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.08461012
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -4.5989356
+        outSlope: -4.5989356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.074305534
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    MinDeltaTime: 0
+    Center: {x: 0, y: 0, z: 0}
+  hitWaveSettings:
+    SplashTime: 3
+    MaxDistance: 100
+    MaxDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.12976062
+        outSlope: 0.12976062
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.24055277
+      - serializedVersion: 3
+        time: 0.8816228
+        value: 0.57976186
+        inSlope: 1.7846794
+        outSlope: 1.9035798
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.10953186
+        outWeight: 0.7925299
+      - serializedVersion: 3
+        time: 1
+        value: 1.0032425
+        inSlope: 6.9241514
+        outSlope: 6.9241514
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.39304042
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Amplitude: 2
+    SplashThreshold: 2
+    ThresholdCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 4.828291
+        outSlope: 4.828291
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.08461012
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -4.5989356
+        outSlope: -4.5989356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.074305534
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    MinDeltaTime: 0.5
+    Center: {x: 0, y: 0, z: 0}
+  miniHitWaveSettings:
+    SplashTime: 1.5
+    MaxDistance: 15
+    MaxDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.12976062
+        outSlope: 0.12976062
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.24055277
+      - serializedVersion: 3
+        time: 0.8816228
+        value: 0.57976186
+        inSlope: 1.7846794
+        outSlope: 1.9035798
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.10953186
+        outWeight: 0.7925299
+      - serializedVersion: 3
+        time: 1
+        value: 1.0032425
+        inSlope: 6.9241514
+        outSlope: 6.9241514
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.39304042
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Amplitude: 1.75
+    SplashThreshold: 2
+    ThresholdCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 4.828291
+        outSlope: 4.828291
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.08461012
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -4.5989356
+        outSlope: -4.5989356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.074305534
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    MinDeltaTime: 0.45
+    Center: {x: 0, y: 0, z: 0}
+  doubleWaveSettings:
+    SplashTime: 2
+    MaxDistance: 100
+    MaxDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.12976062
+        outSlope: 0.12976062
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.24055277
+      - serializedVersion: 3
+        time: 0.8816228
+        value: 0.57976186
+        inSlope: 1.7846794
+        outSlope: 1.9035798
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.10953186
+        outWeight: 0.7925299
+      - serializedVersion: 3
+        time: 1
+        value: 1.0032425
+        inSlope: 6.9241514
+        outSlope: 6.9241514
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.39304042
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Amplitude: 2
+    SplashThreshold: 3
+    ThresholdCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 4.828291
+        outSlope: 4.828291
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.08461012
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -4.5989356
+        outSlope: -4.5989356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.074305534
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    MinDeltaTime: 0
+    Center: {x: 0, y: 0, z: 0}
+  paintWaveSettings:
+    SplashTime: 1.5
+    MaxDistance: 100
+    MaxDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.12976062
+        outSlope: 0.12976062
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.24055277
+      - serializedVersion: 3
+        time: 0.8816228
+        value: 0.57976186
+        inSlope: 1.7846794
+        outSlope: 1.9035798
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.10953186
+        outWeight: 0.7925299
+      - serializedVersion: 3
+        time: 1
+        value: 1.0032425
+        inSlope: 6.9241514
+        outSlope: 6.9241514
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.39304042
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Amplitude: 2
+    SplashThreshold: 3
+    ThresholdCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 4.828291
+        outSlope: 4.828291
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.08461012
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -4.5989356
+        outSlope: -4.5989356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.074305534
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    MinDeltaTime: 0
+    Center: {x: 0, y: 0, z: 0}
+  puzzleWaveSettings:
+    SplashTime: 3
+    MaxDistance: 100
+    MaxDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.12976062
+        outSlope: 0.12976062
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.24055277
+      - serializedVersion: 3
+        time: 0.8816228
+        value: 0.57976186
+        inSlope: 1.7846794
+        outSlope: 1.9035798
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.10953186
+        outWeight: 0.7925299
+      - serializedVersion: 3
+        time: 1
+        value: 1.0032425
+        inSlope: 6.9241514
+        outSlope: 6.9241514
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.39304042
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Amplitude: 7
+    SplashThreshold: 7
+    ThresholdCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 4.828291
+        outSlope: 4.828291
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.08461012
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -4.5989356
+        outSlope: -4.5989356
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.074305534
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    MinDeltaTime: 0
+    Center: {x: 0, y: 0, z: 0}

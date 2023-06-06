@@ -1,0 +1,17 @@
+{
+    "name": "Vibration",
+    "rootNamespace": "",
+    "references": [
+        "GUID:06ec7c455f038654687576835ac15258",
+        "GUID:f18fcf90eaa00f94d84f6174170f875a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

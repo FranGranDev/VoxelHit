@@ -1,0 +1,606 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710d7b2459b8ed4d8a0e044a9801540, type: 3}
+  m_Name: Paint Data
+  m_EditorClassIdentifier: 
+  paintReward: 300
+  items:
+  - name: _______BASE________
+    type: 0
+    index: -1
+    color: {r: 0.22745098, g: 0.22745098, b: 0.22745098, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 0}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: null
+  - name: Pallet 31
+    type: 1
+    index: 31
+    color: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: bd8554e662ef2184d868c9d3bc47790e, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_31
+  - name: Pallet 28
+    type: 1
+    index: 28
+    color: {r: 1, g: 1, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: f10237dae94fd1e46a4e3584bec0c478, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_28
+  - name: Pallet 1
+    type: 1
+    index: 1
+    color: {r: 0.5, g: 0.007843138, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: dc67ff77f22bfed408cb0d04d64428c8, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_1
+  - name: Pallet 2
+    type: 1
+    index: 2
+    color: {r: 0.75, g: 0.011764707, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: e9a99f3bb222f594480703ebd154ca10, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_2
+  - name: Pallet 3
+    type: 1
+    index: 3
+    color: {r: 1, g: 0.50784314, b: 0.5, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 38b6b34ac3745bc45a5c069e78288e83, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_3
+  - name: Pallet 4
+    type: 1
+    index: 4
+    color: {r: 0.5, g: 0.21764708, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 734b8abbe8024e847907e0e2d2a8a9b2, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_4
+  - name: Pallet 5
+    type: 1
+    index: 5
+    color: {r: 1, g: 0.43442622, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 16567922c9bdb5a4c8af367b375301c0, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_5
+  - name: Pallet 6
+    type: 1
+    index: 6
+    color: {r: 1, g: 0.7176471, b: 0.5, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: dbedfa85bf734cc47978619ca66e0e93, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_6
+  - name: Pallet 7
+    type: 1
+    index: 7
+    color: {r: 0.6415094, g: 0.6415094, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 58a959af38da2b54882340667cbaa71e, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_7
+  - name: Pallet 8
+    type: 1
+    index: 8
+    color: {r: 1, g: 1, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: a90d6563fecfc49419a561e140da91fb, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_8
+  - name: Pallet 9
+    type: 1
+    index: 9
+    color: {r: 1, g: 1, b: 0.5, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: d31dbd36418ac464a9271b338636c482, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_9
+  - name: Pallet 10
+    type: 1
+    index: 10
+    color: {r: 0, g: 0.5, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 9d03dc05e7981714ba7da49f6ec39656, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_10
+  - name: Pallet 11
+    type: 1
+    index: 11
+    color: {r: 0, g: 1, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: d957e67e2011cfb4ab1ab79e70b4065c, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_11
+  - name: Pallet 12
+    type: 1
+    index: 12
+    color: {r: 0.5, g: 1, b: 0.5, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 7a7d689c2f0bd6247892f040e2e05c06, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_12
+  - name: Pallet 13
+    type: 1
+    index: 13
+    color: {r: 0, g: 0.5, b: 0.5, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: d9b74fb06c1669542aa1c5c52a02c4bb, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_13
+  - name: Pallet 14
+    type: 1
+    index: 14
+    color: {r: 0, g: 0.75, b: 0.75, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: fb4053ca7f188704c8fd60af280a14d0, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_14
+  - name: Pallet 15
+    type: 1
+    index: 15
+    color: {r: 0.5, g: 1, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 73d49f231b8d5fc46a549387de563119, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_15
+  - name: Pallet 16
+    type: 1
+    index: 16
+    color: {r: 0.5, g: 0, b: 0.2372551, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 00e9972c4555fcd40ab0792110e762e2, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_16
+  - name: Pallet 17
+    type: 1
+    index: 17
+    color: {r: 1, g: 0, b: 0.4745102, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 448c3523a983e2d439b825c183b6663a, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_17
+  - name: Pallet 18
+    type: 1
+    index: 18
+    color: {r: 1, g: 0.5, b: 0.7372551, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: bb91e642ad656564e855a2fa3c76a05b, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_18
+  - name: Pallet 19
+    type: 1
+    index: 19
+    color: {r: 0, g: 0.11372566, b: 0.5, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 167b5f9f718b02745ae698f085a5db66, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_19
+  - name: Pallet 20
+    type: 1
+    index: 20
+    color: {r: 0, g: 0.22660065, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 38100a64820d3b04a95fca65803ecc74, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_20
+  - name: Pallet 21
+    type: 1
+    index: 21
+    color: {r: 0.5, g: 0.61372566, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: d511a8a78beb00b4fb4eaa61276b30fd, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_21
+  - name: Pallet 22
+    type: 1
+    index: 22
+    color: {r: 0.2686274, g: 0, b: 0.5, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 607ace89768dc0a44b0b4f078c77706a, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_22
+  - name: Pallet 23
+    type: 1
+    index: 23
+    color: {r: 0.5354333, g: 0, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: cde1ecb6028fc9f48ac20ce463d16c36, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_23
+  - name: Pallet 24
+    type: 1
+    index: 24
+    color: {r: 0.7686274, g: 0.5, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 8af0a02c4d9f6594ebf0b41dd94288be, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_24
+  - name: Pallet 25
+    type: 1
+    index: 25
+    color: {r: 0, g: 0.5, b: 0.36470592, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 310e4f33023f6b34aa491e4ffce0b0aa, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_25
+  - name: Pallet 26
+    type: 1
+    index: 26
+    color: {r: 0, g: 1, b: 0.7277777, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 52b6758e695b00742838094e173de8ed, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_26
+  - name: Pallet 27
+    type: 1
+    index: 27
+    color: {r: 0.5, g: 1, b: 0.8647059, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 8bf5cd1e642954b4aac1430cb00736b1, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_27
+  - name: Pallet 29
+    type: 1
+    index: 29
+    color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: 6ddb374e5fc7bb94981886c57c549bf5, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_29
+  - name: Pallet 30
+    type: 1
+    index: 30
+    color: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 2100000, guid: c16dbb5212633b940be48eb17953f610, type: 2}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: paint_color_30
+  - name: _______VIP________
+    type: 0
+    index: -1
+    color: {r: 0.22745098, g: 0.22745098, b: 0.22745098, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 0}
+    material: {fileID: 0}
+    cost:
+      cost: 0
+      openByAds: 0
+      maxAds: 0
+      adsId: null
+  - name: Glow_01
+    type: 2
+    index: 101
+    color: {r: 1, g: 0, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: 91e60b54a0cc57547b4df2abeea5f522, type: 3}
+    material: {fileID: 2100000, guid: 31542e67f483f714ab1c4d1c73ff9ad4, type: 2}
+    cost:
+      cost: 3000
+      openByAds: 1
+      maxAds: 2
+      adsId: paint_color_101
+  - name: Glow_03
+    type: 2
+    index: 103
+    color: {r: 1, g: 1, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: 91e60b54a0cc57547b4df2abeea5f522, type: 3}
+    material: {fileID: 2100000, guid: 3bc8bb8599fd6a24cbdb71ec0ca86a77, type: 2}
+    cost:
+      cost: 3000
+      openByAds: 1
+      maxAds: 2
+      adsId: paint_color_103
+  - name: Glow_04
+    type: 2
+    index: 104
+    color: {r: 0, g: 1, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: 91e60b54a0cc57547b4df2abeea5f522, type: 3}
+    material: {fileID: 2100000, guid: aac44485cb013484bb0d705c5e541c64, type: 2}
+    cost:
+      cost: 3000
+      openByAds: 1
+      maxAds: 2
+      adsId: paint_color_104
+  - name: Glow_05
+    type: 2
+    index: 105
+    color: {r: 0, g: 1, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: 91e60b54a0cc57547b4df2abeea5f522, type: 3}
+    material: {fileID: 2100000, guid: d40ff2a5b0095f2448f39fa845f17836, type: 2}
+    cost:
+      cost: 3000
+      openByAds: 1
+      maxAds: 2
+      adsId: paint_color_105
+  - name: Glow_06
+    type: 2
+    index: 106
+    color: {r: 0, g: 0, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: 91e60b54a0cc57547b4df2abeea5f522, type: 3}
+    material: {fileID: 2100000, guid: 82ab3fab3403e344d81965d48b96ca1a, type: 2}
+    cost:
+      cost: 3000
+      openByAds: 1
+      maxAds: 2
+      adsId: paint_color_106
+  - name: Glow_07
+    type: 2
+    index: 107
+    color: {r: 0.50980395, g: 0, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: 91e60b54a0cc57547b4df2abeea5f522, type: 3}
+    material: {fileID: 2100000, guid: 18edb695fa9f0e5489be770f6a387799, type: 2}
+    cost:
+      cost: 3000
+      openByAds: 1
+      maxAds: 2
+      adsId: paint_color_107
+  - name: Lava_01
+    type: 2
+    index: 120
+    color: {r: 1, g: 0, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: f2544cab4e332384ba00a2115e973750, type: 3}
+    material: {fileID: 2100000, guid: 279ec2b379b500e4e93ff2a3422fd645, type: 2}
+    cost:
+      cost: 10000
+      openByAds: 1
+      maxAds: 5
+      adsId: paint_color_120
+  - name: Lava_02
+    type: 2
+    index: 121
+    color: {r: 0, g: 0.05031442, b: 0.754717, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: f2544cab4e332384ba00a2115e973750, type: 3}
+    material: {fileID: 2100000, guid: 378cb856c1dcec44da57980e41e8b535, type: 2}
+    cost:
+      cost: 10000
+      openByAds: 1
+      maxAds: 5
+      adsId: paint_color_121
+  - name: Lava_03
+    type: 2
+    index: 122
+    color: {r: 0.3805031, g: 0, b: 0.8018868, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: f2544cab4e332384ba00a2115e973750, type: 3}
+    material: {fileID: 2100000, guid: d0ffe874a9d0dda4fa85ddc6ee900e29, type: 2}
+    cost:
+      cost: 10000
+      openByAds: 1
+      maxAds: 5
+      adsId: paint_color_122
+  - name: Lava_04
+    type: 2
+    index: 123
+    color: {r: 0.024417313, g: 0.5188679, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: f2544cab4e332384ba00a2115e973750, type: 3}
+    material: {fileID: 2100000, guid: d256ba46c1d319744b296c19c99bdf5f, type: 2}
+    cost:
+      cost: 10000
+      openByAds: 1
+      maxAds: 5
+      adsId: paint_color_123
+  - name: Lava_05
+    type: 2
+    index: 124
+    color: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: f2544cab4e332384ba00a2115e973750, type: 3}
+    material: {fileID: 2100000, guid: 4a77a37106f03254fb0f31084a2e9dd8, type: 2}
+    cost:
+      cost: 10000
+      openByAds: 1
+      maxAds: 5
+      adsId: paint_color_124
+  - name: Galaxy_01
+    type: 2
+    index: 115
+    color: {r: 1, g: 0, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: a704f4f97f4e1fc4ab9410618f8164bf, type: 3}
+    material: {fileID: 2100000, guid: eb4dfe941bd900f448cc16f889d4a682, type: 2}
+    cost:
+      cost: 12000
+      openByAds: 1
+      maxAds: 6
+      adsId: paint_color_115
+  - name: Galaxy_02
+    type: 2
+    index: 116
+    color: {r: 0, g: 0.015195131, b: 1, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: a704f4f97f4e1fc4ab9410618f8164bf, type: 3}
+    material: {fileID: 2100000, guid: 633844a84332a564b8c3e497609de516, type: 2}
+    cost:
+      cost: 12000
+      openByAds: 1
+      maxAds: 6
+      adsId: paint_color_116
+  - name: Galaxy_03
+    type: 2
+    index: 117
+    color: {r: 0.644684, g: 0, b: 0.8490566, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: a704f4f97f4e1fc4ab9410618f8164bf, type: 3}
+    material: {fileID: 2100000, guid: 9377d52b73de61045b678518bc4514f0, type: 2}
+    cost:
+      cost: 12000
+      openByAds: 1
+      maxAds: 6
+      adsId: paint_color_117
+  - name: Galaxy_04
+    type: 2
+    index: 118
+    color: {r: 0.07169401, g: 0.6603774, b: 0, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: a704f4f97f4e1fc4ab9410618f8164bf, type: 3}
+    material: {fileID: 2100000, guid: a38c7d1205051c745b7549f11fb9d56b, type: 2}
+    cost:
+      cost: 12000
+      openByAds: 1
+      maxAds: 6
+      adsId: paint_color_118
+  - name: Galaxy_05
+    type: 2
+    index: 119
+    color: {r: 0.012147311, g: 0, b: 0.31132078, a: 1}
+    sprite: {fileID: 0}
+    iconPrefab: {fileID: 1099636015234027590, guid: a704f4f97f4e1fc4ab9410618f8164bf, type: 3}
+    material: {fileID: 2100000, guid: 96ede5cbf78d0fc49af63df13c68d34a, type: 2}
+    cost:
+      cost: 12000
+      openByAds: 1
+      maxAds: 6
+      adsId: paint_color_119
+  baseColorPrefab: {fileID: 1099636015234027590, guid: 1bb5a9d201ffaab43a3e5bd1b660c987, type: 3}
+  lockedMaterial: {fileID: 2100000, guid: 68fec2d0fb0dd2c4897778d155fd493c, type: 2}

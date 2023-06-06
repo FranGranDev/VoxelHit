@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5828498367893490004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6604859592101598190}
+  - component: {fileID: 5828498367893490002}
+  - component: {fileID: 8471476470733840550}
+  - component: {fileID: 5828498367893490003}
+  - component: {fileID: 3566953075649519632}
+  - component: {fileID: 5070736631477485349}
+  - component: {fileID: 6045065863807249707}
+  m_Layer: 0
+  m_Name: VoxelObjectBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6604859592101598190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828498367893490004}
+  m_LocalRotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5828498367893490002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828498367893490004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e809b834f86d364e96009bfc07d16f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  repairCenter: {x: 0, y: 0, z: 0}
+  repairAnimation:
+    time: 0.35
+    delay: 0.1
+    animationCurves:
+    - serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: -4.2130523
+        outSlope: -4.2130523
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.04284835
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  repairDelay: 0.1
+  repairRandomize: 2.5
+  impulse: 10
+  upRatio: 1
+  randomize: 1
+  breakImpulse: 10
+  topBulletHeight: 5
+  bulletHitRandomize: 2
+  bulletFlyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.8554997
+      outSlope: 3.8554997
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.06264093
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -4.923712
+      outSlope: -4.923712
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.0452857
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  restartAnimation:
+    time: 1
+    delay: 0.1
+    animationCurves:
+    - serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    - serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    - serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2.8263984
+        outSlope: 2.8263984
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.04386431
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  restartType: 1
+  restartJumpPower: 15
+  restartJumpRandomize: 1
+  breakParticle: {fileID: 3740892066270725603, guid: b2c763d7a820136488d43f9b1ce58470, type: 3}
+  repairTriggers: []
+  demolishTriggers: []
+  breakTriggers: []
+  waveMaker: {fileID: 8471476470733840550}
+  colorSetter: {fileID: 5070736631477485349}
+  paintData: {fileID: 0}
+  groupCount: 0
+  state: 0
+  gameType: 0
+  testRepairCount: 25
+--- !u!114 &8471476470733840550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828498367893490004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eebae81e55441634c8545b58e5754cc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
+  wavesData: {fileID: 11400000, guid: 41456de43e71f3947bc724336ed2fb32, type: 2}
+  wavesCount: 0
+--- !u!114 &5828498367893490003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828498367893490004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12b428096ff8cf149a2c90588a0dabb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxAddScale: 3
+  scaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.8717396
+      outSlope: 2.8717396
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.050748117
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.0096699875
+      outSlope: 0.0096699875
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15523732
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &3566953075649519632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828498367893490004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c8b6764c29a5f45bbffa1c95a1e970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialGroup: []
+--- !u!114 &5070736631477485349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828498367893490004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12cf3250445e78b46b29fa47a795670d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMaterial: {fileID: 2100000, guid: cea3df18ce00bd145ad5af771ac223da, type: 2}
+  grayscaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.25
+      inSlope: 0.55
+      outSlope: 0.55
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.8
+      inSlope: 0.55
+      outSlope: 0.55
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &6045065863807249707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828498367893490004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd10c8882a92ca34a96e23214cd8c3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  group: null

@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8f233c94e720e4d9cd6316396ed9d6, type: 3}
+  m_Name: Puzzles Data
+  m_EditorClassIdentifier: 
+  puzzles:
+  - name: PUZZLE 1
+    group: puzzle_picture_01
+    puzzle: {fileID: 1081495308920459379, guid: 1854601af2bb069439f7477d6f5fd628, type: 3}
+    items:
+    - name: VO_Puzzles_01(1.1)
+      index: 0
+      model: {fileID: 5080124698426621319, guid: b7d26d698a94a684e8a88a9585ee990f, type: 3}
+      reward: 100
+    - name: VO_Puzzles_01(1.2)
+      index: 1
+      model: {fileID: 8901699703741979616, guid: 6219a925ab53c4d4b82eafdd0fb204e5, type: 3}
+      reward: 100
+    - name: VO_Puzzles_01(1.3)
+      index: 2
+      model: {fileID: 4510741474142075439, guid: 2f64598227827084ea9ccf8db30d1484, type: 3}
+      reward: 100
+    - name: VO_Puzzles_01(2.1)
+      index: 3
+      model: {fileID: 221705318410944072, guid: ba9565928f0a5bf4582e13ee562375a5, type: 3}
+      reward: 100
+    - name: VO_Puzzles_01(2.2)
+      index: 4
+      model: {fileID: 8847866355967142315, guid: a0d7c9f253b405943b625146e9e2925a, type: 3}
+      reward: 100
+    - name: VO_Puzzles_01(2.3)
+      index: 5
+      model: {fileID: 3892654831834340446, guid: e510d5c1c3d256b4dbbdce08da2a53be, type: 3}
+      reward: 100
+    - name: VO_Puzzles_01(3.1)
+      index: 6
+      model: {fileID: 8796075865751721179, guid: e5a10d19386a12b469d7e3ffe9c32f41, type: 3}
+      reward: 100
+    - name: VO_Puzzles_01(3.2)
+      index: 7
+      model: {fileID: 1929017446998987784, guid: 6655b337066e1fa42ad69fe3964e86e0, type: 3}
+      reward: 100
+    - name: VO_Puzzles_01(3.3)
+      index: 8
+      model: {fileID: 2757787897777559976, guid: 529a3a7098ac6754e9f5697f98d809b2, type: 3}
+      reward: 100
+    minLevelDone: 0
+  - name: PUZZLE 2
+    group: puzzle_picture_02
+    puzzle: {fileID: 2309742453822974166, guid: 3901580bd43b1b14b8b13c6ec31c5727, type: 3}
+    items:
+    - name: VO_Puzzles_02(1.1)
+      index: 0
+      model: {fileID: 5493727922095134769, guid: 92937ca0cc028224ba420fd151c56c48, type: 3}
+      reward: 100
+    - name: VO_Puzzles_02(1.2)
+      index: 1
+      model: {fileID: 519486578573261735, guid: 420fdf8b932bba742ac49ce32a890ba1, type: 3}
+      reward: 100
+    - name: VO_Puzzles_02(1.3)
+      index: 2
+      model: {fileID: 515907589539123588, guid: ad769ef6b4c57d6449fe4f3822e2d756, type: 3}
+      reward: 100
+    - name: VO_Puzzles_02(2.1)
+      index: 3
+      model: {fileID: 561755611136094143, guid: 9682bbb2d95c6c940943df655f301679, type: 3}
+      reward: 100
+    - name: VO_Puzzles_02(2.2)
+      index: 4
+      model: {fileID: 4844284705538378920, guid: 6e2e06ed48c4ec24b81a6169fab4a1b9, type: 3}
+      reward: 100
+    - name: VO_Puzzles_02(2.3)
+      index: 5
+      model: {fileID: 1862445761968065509, guid: 267b76bccde486643895d30b6e06e18c, type: 3}
+      reward: 100
+    - name: VO_Puzzles_02(3.1)
+      index: 6
+      model: {fileID: 4699695299996376738, guid: bbe1700a474e34c47827965db47822ef, type: 3}
+      reward: 100
+    - name: VO_Puzzles_02(3.2)
+      index: 7
+      model: {fileID: 2922178004450129316, guid: e9ddf9e5571eadf47814136a06664def, type: 3}
+      reward: 0
+    - name: VO_Puzzles_02(3.3)
+      index: 8
+      model: {fileID: 465044431030451117, guid: 9893e7059abe3404a80df1c45b388a8a, type: 3}
+      reward: 0
+    minLevelDone: 10
+  - name: PUZZLE 3
+    group: puzzle_picture_03
+    puzzle: {fileID: 6885313596589304035, guid: 0dabf1f1e6ed5534d8ae01302f820413, type: 3}
+    items:
+    - name: VO_Puzzles_03(1.1)
+      index: 0
+      model: {fileID: 5652791125603706097, guid: 86dfde6b31c784d4bbc5000058029275, type: 3}
+      reward: 100
+    - name: VO_Puzzles_03(1.2)
+      index: 1
+      model: {fileID: 5416294636211630154, guid: c3eca3753518fab4db86e411cf161217, type: 3}
+      reward: 100
+    - name: VO_Puzzles_03(1.3)
+      index: 2
+      model: {fileID: 8647005514408406732, guid: f2f8c1bc3e16eee4391445535246c7f3, type: 3}
+      reward: 100
+    - name: VO_Puzzles_03(2.1)
+      index: 3
+      model: {fileID: 7782445801792625508, guid: b5dca700cc2b0ac4e80c90f96379a028, type: 3}
+      reward: 100
+    - name: VO_Puzzles_03(2.2)
+      index: 4
+      model: {fileID: 1522524845762890337, guid: e2cc1ec203b86d34e8c81ecd81bdba6a, type: 3}
+      reward: 100
+    - name: VO_Puzzles_03(2.3)
+      index: 5
+      model: {fileID: 3069992682630499349, guid: 56c490803140d574e8908ab94a7245cc, type: 3}
+      reward: 100
+    - name: VO_Puzzles_03(3.1)
+      index: 6
+      model: {fileID: 647205898876883279, guid: 05b18fd861aa26441958089b0262df0d, type: 3}
+      reward: 100
+    - name: VO_Puzzles_03(3.2)
+      index: 7
+      model: {fileID: 2546135988012935858, guid: fb6e94d887f7ab74d9b36b2468095267, type: 3}
+      reward: 100
+    - name: VO_Puzzles_03(3.3)
+      index: 8
+      model: {fileID: 114424915724703424, guid: 32e4c554a66e4ec48bd0fa959069fd21, type: 3}
+      reward: 100
+    minLevelDone: 20
+  groups:
+  - puzzle_picture_01
+  - puzzle_picture_02
+  - puzzle_picture_03

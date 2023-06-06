@@ -1,0 +1,20 @@
+{
+    "name": "LevelManager",
+    "rootNamespace": "Managament.Levels",
+    "references": [
+        "GUID:776d03a35f1b52c4a9aed9f56d7b4229",
+        "GUID:f18fcf90eaa00f94d84f6174170f875a",
+        "GUID:06ec7c455f038654687576835ac15258",
+        "GUID:5fabb4b5fcd574d43843d3b81cb9cf90",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

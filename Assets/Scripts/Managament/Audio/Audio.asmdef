@@ -1,0 +1,18 @@
+{
+    "name": "Audio",
+    "rootNamespace": "Audio",
+    "references": [
+        "GUID:06ec7c455f038654687576835ac15258",
+        "GUID:f18fcf90eaa00f94d84f6174170f875a",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
