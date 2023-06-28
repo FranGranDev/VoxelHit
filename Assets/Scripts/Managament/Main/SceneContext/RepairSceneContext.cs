@@ -8,7 +8,7 @@ using NaughtyAttributes;
 using Traps;
 using Managament.Levels;
 using Services;
-
+using Zenject;
 
 namespace Managament
 {
@@ -24,6 +24,13 @@ namespace Managament
         private IUserInput input;
 
 
+        [Inject] private ITrackEvents eventsTracker;
+        [Inject] private ISoundPlayer soundPlayer;
+        [Inject] private IAdsController adsController;
+        [Inject(Id = "Coin")] 
+        private IMoneyController coinController;
+
+
         public override Transform LevelTransform => levelManagement.LevelTransform;
 
         public event System.Action OnShopClick;
@@ -34,7 +41,7 @@ namespace Managament
 
 
         protected override void SceneInitilize()
-        {
+        { 
             levelManagement.OnLevelLoaded += OnLevelLoaded;
 
 
@@ -70,7 +77,6 @@ namespace Managament
             UseFactories();
             UseTargetEvents();
 
-            AutoBind<IUserInput>();
             AutoBind<IFillEvent>();
             AutoBind<IGameEventsHandler>();
 
@@ -121,17 +127,17 @@ namespace Managament
         {
             base.OnLevelFailed();
 
-            Components.EventsTracker.OnLevelFailed(SavedData.LevelsDone + 1);
+            eventsTracker.OnLevelFailed(SavedData.LevelsDone + 1);
         }
         protected override void OnCollectMoney(MoneyValue obj)
         {
             collectedMoney += obj.Value;
 
-            Components.Money.Add(obj.Value);
+            coinController.Add(obj.Value);
         }
         protected virtual void GoNextLevel()
         {
-            Components.EventsTracker.OnLevelCompleted(SavedData.LevelsDone + 1);
+            eventsTracker.OnLevelCompleted(SavedData.LevelsDone + 1);
 
             SaveModel();
             ClearScene();
@@ -165,7 +171,7 @@ namespace Managament
             if (GameState != GameStates.Failed)
                 return;
 
-            await Components.Ads.TryShowInter();
+            await adsController.TryShowInter();
 
             ClearScene();
             levelManagement.RestartLevel();
@@ -178,7 +184,7 @@ namespace Managament
             {
                 GameState = GameStates.Game;
 
-                Components.SoundPlayer.PlaySound("restart");
+                soundPlayer.PlaySound("restart");
             }
             else
             {
@@ -192,7 +198,7 @@ namespace Managament
 
             GameState = GameStates.Game;
 
-            Components.EventsTracker.OnLevelStarted(SavedData.LevelsDone + 1);
+            eventsTracker.OnLevelStarted(SavedData.LevelsDone + 1);
         }
         private void UIDoneClick()
         {

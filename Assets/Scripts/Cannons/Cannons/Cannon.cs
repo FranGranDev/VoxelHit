@@ -3,11 +3,11 @@ using Services;
 using Cannons.Bullets;
 using Animations;
 using DG.Tweening;
-
+using Zenject;
 
 namespace Cannons
 {
-    public class Cannon : CannonBase, IBindable<IGameEventsHandler>, ISuperShotEvents
+    public class Cannon : CannonBase, ISuperShotEvents
     {      
         [Header("Model")]
         [SerializeField] private Transform mainModel;
@@ -15,13 +15,18 @@ namespace Cannons
         [SerializeField] private float rotateTime;
         [SerializeField] private Ease rotateEase;
 
+
+        [Inject]
+        private IGameEventsHandler eventsHandler;
+
+
+
         private bool isFiring;
+        private bool superReadyUI;
 
         private float prevFireTime;
         private Vector3 startPosition;
         private Quaternion startRotation;
-
-        private bool superReadyUI;
 
 
         public Transform Point => mainModel;
@@ -39,10 +44,7 @@ namespace Cannons
             {
                 transform.Rotate(new Vector3(0, 180, 0));
             }
-        }
 
-        public void Bind(IGameEventsHandler eventsHandler)
-        {
             eventsHandler.OnStarted += OnStarted;
             eventsHandler.OnFailed += OnFailed;
         }

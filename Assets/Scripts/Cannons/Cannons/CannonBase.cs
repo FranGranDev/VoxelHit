@@ -3,7 +3,7 @@ using Services;
 using Data;
 using System;
 using UnityEngine;
-
+using Zenject;
 
 namespace Cannons
 {
@@ -16,7 +16,9 @@ namespace Cannons
         [SerializeField] protected Transform firePoint;
 
 
+        [Inject]
         protected ISoundPlayer soundPlayer;
+
 
         protected GameTypes gameType = GameTypes.Shop;
         protected float fireTime;

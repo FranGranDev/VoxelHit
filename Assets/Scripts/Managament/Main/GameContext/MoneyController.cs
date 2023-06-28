@@ -3,6 +3,7 @@ using UI;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using Cysharp.Threading.Tasks;
 
 namespace Managament
 {
@@ -16,11 +17,11 @@ namespace Managament
             {Types.Gem, "Gem" },
         };
 
-        public MoneyController(MonoBehaviour monoBehaviour, Types type)
+        public MoneyController(Types type)
         {
             this.type = type;
 
-            monoBehaviour.StartCoroutine(UpdateCour());
+            UpdateState();
         }
 
         private Types type;
@@ -71,10 +72,8 @@ namespace Managament
                 onFail?.Invoke();
             }
         }
-        private IEnumerator UpdateCour()
+        private async void UpdateState()
         {
-            var wait = new WaitForFixedUpdate();
-
             while(true)
             {
                 while (tempMoney > 0)
@@ -82,7 +81,7 @@ namespace Managament
                     tempMoney--;
                     tempMoney = Mathf.CeilToInt(tempMoney * 0.9f);
                     CallVisualUpdate();
-                    yield return wait;
+                    await UniTask.WaitForFixedUpdate();
                 }
 
                 while (tempMoney < 0)
@@ -90,12 +89,12 @@ namespace Managament
                     tempMoney++;
                     tempMoney = Mathf.CeilToInt(tempMoney * 0.9f);
                     CallVisualUpdate();
-                    yield return wait;
+                    await UniTask.WaitForFixedUpdate();
                 }
 
                 tempMoney = 0;
 
-                yield return wait;
+                await UniTask.WaitForFixedUpdate();
             }
         }
 

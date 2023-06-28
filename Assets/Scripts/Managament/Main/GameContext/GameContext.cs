@@ -103,8 +103,8 @@ namespace Managament
             DOTween.SetTweensCapacity(1000, 50);
 
 
-            moneyController = new MoneyController(this, MoneyController.Types.Coin);
-            gemController = new MoneyController(this, MoneyController.Types.Gem);
+            moneyController = new MoneyController(MoneyController.Types.Coin);
+            gemController = new MoneyController(MoneyController.Types.Gem);
             eventsTracker = new EventsTracker();
             haptic = new Haptic();
             components = new ComponentsInfo

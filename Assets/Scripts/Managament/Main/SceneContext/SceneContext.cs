@@ -11,6 +11,7 @@ namespace Managament
 {
     public abstract class SceneContext : MonoBehaviour, ISceneContext, IGameEventsHandler
     {
+        [Foldout("DI"), SerializeField] protected Zenject.SceneContext sceneContext;
         [Foldout("Music"), SerializeField] protected AudioClip baseMusic;
         [Foldout("States"), SerializeField] private GameTypes gameType;
         [Foldout("States"), SerializeField] private GameStates gameState;
@@ -186,6 +187,11 @@ namespace Managament
         }
 
 
+
+        protected void ResetDI()
+        {
+            sceneContext.Resolve();
+        }
 
 
         protected void ClearEvents()
